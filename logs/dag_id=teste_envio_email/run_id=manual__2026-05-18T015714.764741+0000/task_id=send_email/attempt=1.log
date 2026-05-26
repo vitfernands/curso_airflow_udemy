@@ -1,0 +1,3 @@
+{"timestamp":"2026-05-18T01:57:16.930364Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-18T01:57:16.931281Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/1.email_envio.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-18T01:57:16.986018Z","level":"warning","event":"The `airflow.operators.email.EmailOperator` attribute is deprecated. Please use `'airflow.providers.smtp.operators.smtp.EmailOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/1.email_envio.py","lineno":2,"logger":"py.warnings"}
